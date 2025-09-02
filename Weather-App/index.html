@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+        <div id="input">
+            <h1>WEATHER APP</h1>
+            <form>
+                <input id="inp" type="text" placeholder="Enter the city name..." />
+                <button id="result-btn" type="submit">Get WEATHER</button>
+            </form>
+        </div>
+        <div id="output">
+            <h2>Weather Details: </h2>
+            <div id="result">
+              <div id="Tempearture">
+                <h3>Temperature: <span id="Temp"></span></h3>
+                <h4>Feels like: <span id="feels"></span></h4>
+              </div>
+              <div id="Humidity">
+                <h3>Humidity: <span id="hum"></span></h3>
+                <h4>Visibility: <span id="vis"></span></h4>
+              </div>
+              <div id="Rain">
+                <h3>Rain: <span id="rain"></span></h3>
+              </div>
+              <div id="Condition">
+                <h3>Condition: <span id="cndt"></span></h3>
+              </div>
+            </div>
+        </div>
+        <div id="errorMsg">
+            <h2>Error Message: </h2>
+            <div id="msg">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
