@@ -74,6 +74,3 @@ Weather apps are perfect because:
 This project gave me a stronger grip on **asynchronous JavaScript** and **clean DOM updates**.
 
 ---
-
-## 👤 Author
-**Debayan** – built as a solo project to sharpen JavaScript skills.
