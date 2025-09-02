@@ -5,7 +5,7 @@ The goal wasn’t just to make something that works, but to practice DOM manipul
 
 ---
 
-## 🚀 Features
+## Features
 - Search weather by **city name**.
 - Fetches live weather data from the **OpenWeatherMap API**.
 - Displays:
@@ -24,7 +24,7 @@ The goal wasn’t just to make something that works, but to practice DOM manipul
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 - **HTML5** – structure of the app.  
 - **CSS3** – basic styling (minimal for focus on JS).  
 - **Vanilla JavaScript (ES6+)** – core logic:
@@ -35,7 +35,7 @@ The goal wasn’t just to make something that works, but to practice DOM manipul
 
 ---
 
-## 📚 What I Practiced
+## What I Practiced
 This project was about **mastering JavaScript basics by building something tangible**:
 - DOM manipulation (updating multiple elements dynamically).
 - Event handling (button click + keyboard input).
@@ -45,7 +45,7 @@ This project was about **mastering JavaScript basics by building something tangi
 
 ---
 
-## ⚡ How It Works
+## How It Works
 1. User enters a city name in the input field.  
 2. On click (or pressing Enter), the app fetches data from OpenWeatherMap.  
 3. Weather details are displayed on the page.  
@@ -57,9 +57,9 @@ This project was about **mastering JavaScript basics by building something tangi
 - <img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/bd6dda7d-11c4-418c-a383-beac6c6a1da6" />
  
 - Edge Case Handleing:
-  - Wrong name :- 
+  - Wrong name 
         <img width="300" alt="image" src="https://github.com/user-attachments/assets/0dcce414-431c-4bcf-9446-62670e4c7cfc" />
-  - Blank input
+  - Blank input 
         <img width="300" alt="image" src="https://github.com/user-attachments/assets/bafb7581-1405-41be-aa07-64e86e1b7d8b" />
  
 ---
