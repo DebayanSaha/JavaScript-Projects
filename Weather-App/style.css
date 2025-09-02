@@ -35,6 +35,10 @@ body{
     border-radius: 20px;
     padding: 20px;
 }
+#msg > p{
+    font-size: 28px;
+    font-style: italic;
+}
 #input > h1{
     font-size: 50px;
 }
