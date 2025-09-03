@@ -1,0 +1,86 @@
+body{
+    padding: 20px;
+    background: #000000;
+    height: 100vh;
+    font-family: "Helvetica Neue",sans-serif;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;   /* allows wrapping to next line if too many cards */
+  gap: 20px;         /* spacing between cards */
+  justify-content: center; /* center row, or use flex-start for left */
+}
+input{
+    display: block;
+    margin: 0 auto 20px;
+    height: 35px;
+    width: 190px;
+    border-radius: 10px;
+}
+.card{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.blurred-layer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    filter: blur(10px);
+    z-index: 1;
+    mask-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-image: linear-gradient(
+        to top,
+        rgba(0,0,0,1),
+        rgba(0,0,0,0)
+    );
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.content{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.content h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.notFound{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.content p{
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.4;
+}
